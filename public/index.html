@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="%LANG_ISO_CODE%">
+  <head>
+    <!-- PostHog -->
+    <script>
+      !(function (t, e) {
+        var o, n, p, r;
+        e.__SV ||
+          ((window.posthog = e),
+          (e._i = []),
+          (e.init = function (i, s, a) {
+            function g(t, e) {
+              var o = e.split('.');
+              2 == o.length && ((t = t[o[0]]), (e = o[1])),
+                (t[e] = function () {
+                  t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+                });
+            }
+            ((p = t.createElement('script')).type = 'text/javascript'),
+              (p.crossOrigin = 'anonymous'),
+              (p.async = !0),
+              (p.src =
+                s.api_host.replace('.i.posthog.com', '-assets.i.posthog.com') +
+                '/static/array.js'),
+              (r = t.getElementsByTagName('script')[0]).parentNode.insertBefore(
+                p,
+                r
+              );
+            var u = e;
+            for (
+              void 0 !== a ? (u = e[a] = []) : (a = 'posthog'),
+                u.people = u.people || [],
+                u.toString = function (t) {
+                  var e = 'posthog';
+                  return (
+                    'posthog' !== a && (e += '.' + a), t || (e += ' (stub)'), e
+                  );
+                },
+                u.people.toString = function () {
+                  return u.toString(1) + '.people (stub)';
+                },
+                o =
+                  'init Re Os As Pe Ms Fs capture Ve calculateEventProperties js register register_once register_for_session unregister unregister_for_session qs getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty zs Ls createPersonProfile Us Rs Bs opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing Ds debug I Ns getPageViewId captureTraceFeedback captureTraceMetric'.split(
+                    ' '
+                  ),
+                n = 0;
+              n < o.length;
+              n++
+            )
+              g(u, o[n]);
+            e._i.push([i, s, a]);
+          }),
+          (e.__SV = 1));
+      })(document, window.posthog || []);
+      posthog.init('phc_cWs0lPve2BR1hQdh4zfbU2Zp74R8cEl7CKqSJ4GO6Na', {
+        api_host: 'https://us.i.posthog.com',
+        defaults: '2025-05-24',
+        person_profiles: 'always',
+      });
+    </script>
+    <!-- End PostHog -->
+
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>%WEB_TITLE%</title>
+
+    <!-- Meta description -->
+    <meta
+      name="description"
+      content="Convert your birth chart into an optimized prompt for AIs you already use. No subscriptions - just better prompts for better readings."
+    />
+
+    <!-- OpenGraph Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Chart2AI - Smart Prompts for AI Astrology"
+    />
+    <meta
+      property="og:description"
+      content="Convert your birth chart into an optimized prompt for AIs you already use. No subscriptions - just better prompts for better readings."
+    />
+    <meta property="og:url" content="https://app.chart2ai.com" />
+    <meta property="og:image" content="https://chart2ai.com/og-image.png" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Chart2AI - Smart Prompts for AI Astrology"
+    />
+    <meta
+      name="twitter:description"
+      content="Convert your birth chart into an optimized prompt for AIs you already use. No subscriptions - just better prompts for better readings."
+    />
+    <meta name="twitter:image" content="https://chart2ai.com/og-image.png" />
+
+    <!-- Theme and App Settings -->
+    <meta name="theme-color" content="#00BFFF" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Chart2AI" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⭐</text></svg>"
+    />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      /* These styles make the body full-height */
+      html,
+      body {
+        height: 100%;
+      }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body {
+        overflow: hidden;
+      }
+      /* These styles make the root element full-height */
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Use static rendering with Expo Router to support running without JavaScript. -->
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <!-- The root element for your Expo app. -->
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+web-build/
+dist/
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.production
+.eslintcache

@@ -1,0 +1,80 @@
+{
+  "charts": [
+    {
+      "name": "Alice Example",
+      "personGender": "female",
+      "date": "1990-01-01",
+      "time": "12:00",
+      "location": "New York, New York"
+    },
+    {
+      "name": "Bob Example",
+      "personGender": "male",
+      "date": "1985-06-15",
+      "time": "18:30",
+      "location": "Los Angeles, California"
+    }
+  ],
+  "houseSystem": "P",
+  "enableTransit": true,
+  "transit": {
+    "location": "Austin, Texas",
+    "date": "2024-04-12T00:00:00.000Z",
+    "time": "10:00"
+  },
+  "userPromptText": "",
+  "systemPromptEnabled": true,
+  "readingVoice": "mystical",
+  "readingStyle": "modern",
+  "skipOutOfSignAspects": true,
+  "rawMode": false,
+  "orbSensitivity": "balanced",
+  "filteringSettings": {
+    "planetWeights": {
+      "Sun": 5,
+      "Moon": 5,
+      "Mercury": 4,
+      "Venus": 4,
+      "Mars": 4,
+      "Jupiter": 3,
+      "Saturn": 3,
+      "Uranus": 2,
+      "Neptune": 2,
+      "Pluto": 2,
+      "Ascendant": 5,
+      "Midheaven": 4,
+      "North Node": 4
+    },
+    "dynamicOrbs": {
+      "single": {
+        "tight": 2,
+        "moderate": 5,
+        "wide": 8
+      },
+      "pair": {
+        "tight": 1.5,
+        "moderate": 4,
+        "wide": 6
+      },
+      "small": {
+        "tight": 1,
+        "moderate": 3,
+        "wide": 5
+      },
+      "large": {
+        "tight": 0.8,
+        "moderate": 2,
+        "wide": 4
+      }
+    },
+    "aspectCountLimits": {
+      "small": 100,
+      "large": 50
+    },
+    "patternCountLimits": {
+      "small": 12,
+      "large": 8,
+      "maxPerType": 2
+    }
+  }
+}

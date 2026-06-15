@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Note: This is a web app, not traditional website content
+# We allow indexing but the app requires JavaScript to function
+
+# Block crawling of potential API endpoints or sensitive paths
+Disallow: /api/
+Disallow: /_expo/
+Disallow: /static/js/
+Disallow: /static/css/
+
+# Allow main app page for social media previews
+Allow: /$
+
+# Common crawl optimizations
+Crawl-delay: 2
+
+# Major search engines
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /_expo/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /_expo/
